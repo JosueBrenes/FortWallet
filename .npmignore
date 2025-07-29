@@ -1,0 +1,56 @@
+### Development files
+src/
+node_modules/
+*.log
+.env*
+
+### Build artifacts
+tsconfig.json
+rollup.config.js
+.pnpm-lock.yaml
+package-lock.json
+
+### Development tools
+index.html
+*.gif
+button-ui.gif
+modal-ui.gif
+
+### Documentation development
+docs/
+examples/
+
+### IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+### Testing
+test/
+tests/
+*.test.*
+*.spec.*
+
+### Linting and formatting
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+### Git
+.git/
+.gitignore
+
+### CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+### Cache directories
+.cache/
+.temp/
+.tmp/
+
+### Coverage reports
+coverage/
+.nyc_output/
